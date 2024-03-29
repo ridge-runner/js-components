@@ -1,0 +1,8 @@
+
+# JS COMPONENTS
+
+An excersize in learning how to create web components from scratch using
+JS and the other web standards.
+
+The Shadow DOM isn't used in the early components, but will be included in
+the later refactors.

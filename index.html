@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning the BOM and DOM</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="slider-menu">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <main>
+        <h1>Side Navigation Demo</h1>
+        <p>This is a side nav built from scratch.</p>
+        <button id="slider-toggle" class="button">MENU</button>
+        <div id="modal">
+          <h2>This calls up a modal window.</h2>
+          <p>
+            Modals are held beneath the main page. They are called up
+            when an event occurs, triggering a change in class properties.
+            Usually, that is the z-index being incremented from a negative
+            integer to a positive number.
+          </p>
+          <button id="modal-btn" type="button">Pop Up</button>
+        </div>
+      </main>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
