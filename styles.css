@@ -1,4 +1,11 @@
 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 .wrapper {
     width: 100%;
     height: 100vh;
@@ -34,16 +41,56 @@ ul li a {
     text-decoration-line: none;
 }
 
-main .button {
+.button {
     box-shadow: 1px 1px 1px;
     border: none;
     border-radius: 5px;
+    margin-inline: 1rem;
     padding: 5px;
     font-weight: bold;
+
 }
 
 main {
     border: solid 1px blue;
     width: 100%;
     text-align: center;
+}
+
+/* MODAL */
+
+#modal {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: hsla(182, 25%, 50%, 0.5);
+}
+
+.modal__container {
+    width: fit-content;
+    background-color: hsl(0, 0%, 83%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;        
+
+    padding: 1.25rem;
+
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px ;
+}
+
+.modal__container h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.modal__container p {
+    width: 60ch;
+}
+
+.hide {
+    display: none !important;
 }
